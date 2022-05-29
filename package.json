@@ -1,0 +1,21 @@
+{
+  "name": "goals-app",
+  "version": "1.0.0",
+  "description": "This is a fullstack MERN app to track user's goals.",
+  "main": "server.js",
+  "repository": "https://github.com/robmi11/goals-app.git",
+  "author": "Robert Mizianty",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./server/server.js",
+    "serve": "nodemon ./server/server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}
